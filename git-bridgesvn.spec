@@ -3,7 +3,7 @@ Name:		git-bridgesvn
 Version:	0.1
 Release:	0.20120109.1
 License:	LGPL v2+
-Group:		Applications
+Group:		Development/Version Control
 Source0:	%{name}.tar.gz
 # Source0-md5:	51b90ae4f91de5077d2977214f06e7c5
 URL:		https://github.com/boris-unterer/Git-SVN-Bridge/
