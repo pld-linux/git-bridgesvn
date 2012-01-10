@@ -1,7 +1,7 @@
 Summary:	git-bridgesvn - a git-svn without altering the commit hashes
 Name:		git-bridgesvn
 Version:	0.1
-Release:	0.20120109.1
+Release:	0.20120109.2
 License:	LGPL v2+
 Group:		Development/Version Control
 Source0:	%{name}.tar.gz
@@ -11,7 +11,6 @@ BuildRequires:	git-core
 Requires:	git-core
 Requires:	perl-Encode
 Requires:	perl-subversion
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		git_libdir	%(git --exec-path)
