@@ -1,4 +1,4 @@
-%define		rel		3
+%define		rel	4
 Summary:	git-bridgesvn - a git-svn without altering the commit hashes
 Name:		git-bridgesvn
 Version:	0.1
@@ -12,7 +12,6 @@ BuildRequires:	git-core >= 2.7.1-3
 Requires:	git-core
 Requires:	perl-Encode
 Requires:	perl-subversion
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		gitcoredir	%(git --exec-path)
