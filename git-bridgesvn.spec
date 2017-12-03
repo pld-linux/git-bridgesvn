@@ -1,4 +1,4 @@
-%define		rel	4
+%define		rel	5
 Summary:	git-bridgesvn - a git-svn without altering the commit hashes
 Name:		git-bridgesvn
 Version:	0.1
